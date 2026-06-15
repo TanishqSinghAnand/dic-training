@@ -1,0 +1,135 @@
+# =========================
+# CORE PYTHON & NOTEBOOKS
+# =========================
+jupyter
+jupyterlab
+ipykernel
+notebook
+
+# =========================
+# DATA SCIENCE
+# =========================
+numpy
+pandas
+scipy
+
+# =========================
+# VISUALIZATION
+# =========================
+matplotlib
+seaborn
+plotly
+
+# =========================
+# MACHINE LEARNING
+# =========================
+scikit-learn
+xgboost
+lightgbm
+joblib
+
+# =========================
+# COMPUTER VISION
+# =========================
+opencv-python
+opencv-contrib-python
+Pillow
+albumentations
+
+# =========================
+# DEEP LEARNING
+# =========================
+torch
+torchvision
+torchaudio
+
+tensorflow
+keras
+
+# =========================
+# TRANSFORMERS & LLMs
+# =========================
+transformers
+accelerate
+sentence-transformers
+datasets
+tokenizers
+
+# =========================
+# PEFT / LORA FINETUNING
+# =========================
+peft
+trl
+bitsandbytes
+
+# =========================
+# HUGGING FACE ECOSYSTEM
+# =========================
+huggingface_hub
+safetensors
+
+# =========================
+# RAG & VECTOR DATABASES
+# =========================
+faiss-cpu
+chromadb
+
+# =========================
+# LANGCHAIN ECOSYSTEM
+# =========================
+langchain
+langchain-community
+langchain-core
+langchain-openai
+langchain-huggingface
+langgraph
+
+# =========================
+# EMBEDDINGS & RETRIEVAL
+# =========================
+rank-bm25
+tiktoken
+
+# =========================
+# FASTAPI DEPLOYMENT
+# =========================
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# =========================
+# API REQUESTS
+# =========================
+requests
+httpx
+
+# =========================
+# DATA FILES
+# =========================
+openpyxl
+xlrd
+pyarrow
+
+# =========================
+# UTILITIES
+# =========================
+tqdm
+rich
+python-dotenv
+
+# =========================
+# MODEL EVALUATION
+# =========================
+scikit-image
+
+# =========================
+# EXPERIMENT TRACKING
+# =========================
+tensorboard
+
+# =========================
+# OPTIONAL FOR ADVANCED AI
+# =========================
+onnx
+onnxruntime

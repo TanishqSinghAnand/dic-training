@@ -22,23 +22,27 @@ def readAndWriteSinglePixel():
     plt.show()
 
 def readAndWritePixelRegion():
-    root = os.getcwd()
-    imgPath = os.path.join(root, r'Images\chotu.jpeg')
+    imgPath = "./Images/chotu.jpeg"
     img = cv.imread(imgPath)
-    #convert bgr to rgb
+
     imgRGB = cv.cvtColor(img, cv.COLOR_BGR2RGB)
+    
     plt.figure()
     plt.imshow(imgRGB)
     plt.show()
-    #let's extract the eye region
-    eyeRegion = imgRGB[186:206, 179:234] #y , x
 
+    eye = imgRGB[186:206, 179:234] 
+
+    x_start = 213
+    y_start = 140
+    
     dy = 206-186
     dx = 234-179
-    startY = 140
-    startX = 213
-    imgRGB[startY:startY+dy, startX:startX+dx] = eyeRegion
+    
+    imgRGB[y_start:y_start+dy, x_start:x_start+dx] = eye
+    
     plt.figure()
+    plt.title("3 eyed chotu")
     plt.imshow(imgRGB)
     plt.show()
 

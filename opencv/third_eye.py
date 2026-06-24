@@ -46,5 +46,6 @@ def readAndWritePixelRegion():
     plt.imshow(imgRGB)
     plt.show()
 
+
 # readAndWriteSinglePixel()
 readAndWritePixelRegion()
